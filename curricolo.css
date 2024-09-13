@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: #555;
+        }
+        .section p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nome do Candidato</h1>
+        <div class="section">
+            <h2>Sobre Mim</h2>
+            <p>Breve descrição sobre você e seus objetivos profissionais.</p>
+        </div>
+        <div class="section">
+            <h2>Experiência</h2>
+            <p><strong>Empresa X</strong> - Cargo (Ano - Ano)</p>
+            <p>Descrição das responsabilidades e conquistas.</p>
+            <p><strong>Empresa Y</strong> - Cargo (Ano - Ano)</p>
+            <p>Descrição das responsabilidades e conquistas.</p>
+        </div>
+        <div class="section">
+            <h2>Educação</h2>
+            <p><strong>Instituição Z</strong> - Curso (Ano de Conclusão)</p>
+            <p>Detalhes adicionais se necessário.</p>
+        </div>
+        <div class="section">
+            <h2>Habilidades</h2>
+            <p>Lista de habilidades e competências.</p>
+        </div>
+    </div>
+</body>
+</html>
