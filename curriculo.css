@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+        .section .job-title {
+            font-weight: bold;
+            color: #333;
+        }
+        .section .date {
+            font-style: italic;
+            color: #666;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background: #e9ecef;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            padding: 10px;
+            display: inline-block;
+        }
+        .contact-info {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nome do Candidato</h1>
+        
+        <div class="contact-info">
+            <p><strong>Email:</strong> seuemail@exemplo.com</p>
+            <p><strong>Telefone:</strong> (11) 12345-6789</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/seuperfil</p>
+        </div>
+
+        <div class="section">
+            <h2>Sobre Mim</h2>
+            <p>Sou um profissional dedicado com experiência em [Sua Área]. Busco novas oportunidades para aplicar minhas habilidades e contribuir para o sucesso da equipe.</p>
+        </div>
+
+        <div class="section">
+            <h2>Experiência</h2>
+            <p class="job-title">Empresa X - Cargo</p>
+            <p class="date">Ano - Ano</p>
+            <p>Descrição das responsabilidades e conquistas.</p>
+            
+            <p class="job-title">Empresa Y - Cargo</p>
+            <p class="date">Ano - Ano</p>
+            <p>Descrição das responsabilidades e conquistas.</p>
+        </div>
+
+        <div class="section">
+            <h2>Educação</h2>
+            <p class="job-title">Instituição Z - Curso</p>
+            <p class="date">Ano de Conclusão</p>
+            <p>Detalhes adicionais se necessário.</p>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>Habilidade 1</li>
+                <li>Habilidade 2</li>
+                <li>Habilidade 3</li>
+                <!-- Adicione mais habilidades conforme necessário -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
